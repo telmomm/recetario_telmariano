@@ -1,0 +1,17 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Básicos}{6}{section*.1}%
+\contentsline {section}{Champiñones Guisados}{7}{section*.2}%
+\contentsline {section}{Pimientos del Piquillo}{8}{section*.3}%
+\contentsline {chapter}{Carnes y Aves}{9}{section*.4}%
+\contentsline {section}{Conejo Guisado (Toñi)}{10}{section*.5}%
+\contentsline {section}{Muslos de pollo guisados}{11}{section*.6}%
+\contentsline {section}{Contramuslos con miel}{12}{section*.7}%
+\contentsline {section}{Picantones Rellenos}{14}{section*.8}%
+\contentsline {section}{Albondigas IKEA}{15}{section*.9}%
+\contentsline {chapter}{Pescados y Mariscos}{16}{section*.10}%
+\contentsline {section}{Lubina al Horno}{17}{section*.11}%
+\contentsline {section}{Langostinos Cocidos}{18}{section*.12}%
+\contentsline {section}{Mejillones en Salsa}{19}{section*.13}%
+\contentsline {section}{Almejas en Salsa Verde}{20}{section*.14}%
+\contentsline {chapter}{Arroces}{21}{section*.15}%
+\contentsline {section}{Paella (4pax)}{22}{section*.16}%

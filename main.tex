@@ -1,0 +1,31 @@
+% chktex-file 1
+\documentclass[a5paper,openany]{book}
+\usepackage[spanish]{babel} % Configurar el idioma a español
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{nicefrac}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{tocloft}
+
+% Incluir el archivo de estilo
+\input{style}
+
+\begin{document} 
+
+    
+
+    \include{frontcover}
+    \include{dedicatoria} 
+    \include{intro}
+
+    \include{acronimos}
+    
+    \tableofcontents
+
+    \include{basicos/0_basicos}
+    \include{carnes_aves/0_carnes_aves}
+    \include{pescados_mariscos/0_pescados_mariscos}
+    \include{arroces/0_arroces}
+
+\end{document}

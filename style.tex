@@ -1,0 +1,52 @@
+% Configuración de geometry para A5
+\geometry{
+  a5paper,
+  left=20mm,
+  right=20mm,
+  top=20mm,
+  bottom=20mm
+}
+
+% Configuración de fancyhdr
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\nouppercase{\rightmark}} % Nombre del capítulo en el encabezado derecho
+\fancyfoot[C]{\thepage} % Número de página en el centro del pie de página
+\renewcommand{\footrulewidth}{0.4pt} % Línea horizontal en el pie de página
+
+% Redefinir \chaptermark para mostrar solo el nombre del capítulo
+\renewcommand{\chaptermark}[1]{\markright{#1}}
+
+% Redefinir el formato del capítulo para que no se muestre nada
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {}
+  {0pt}
+  {\vspace{-20em}} % Ajustar el espacio vertical para ocultar el título del capítulo
+  
+% Definir un nuevo comando para la portada del capítulo
+\newcommand{\chaptercover}[3]{
+    %\cleardoublepage % Asegurarse de que no haya páginas en blanco antes
+    \phantomsection % Crear una sección fantasma para el hipervínculo en la TOC
+    \addcontentsline{toc}{chapter}{#1} % Añadir el capítulo a la tabla de contenidos
+    \chaptermark{#1} % Marcar el capítulo para los encabezados
+    \thispagestyle{empty}
+    \begin{center}
+        \vspace*{5cm}
+        {\Huge\bfseries #1\par}
+        \vspace{1cm}
+        {\Large #2\par}
+        \vspace{1cm}
+        {\large #3\par}
+        \vfill
+    \end{center}
+    \clearpage
+}
+
+\newcommand{\mysection}[1]{
+  \section*{#1}
+  \phantomsection
+  \addcontentsline{toc}{section}{#1}% Añadir la sección a la tabla de contenidos
+}
+
+

@@ -1,0 +1,71 @@
+# Archivos de compilación de LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.pdfsync
+*.nav
+*.snm
+*.vrb
+
+# Archivos de compilación de BibTeX
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# Archivos de compilación de nomenclatura
+*.nlo
+*.nls
+
+# Archivos de compilación de MakeIndex
+*.ilg
+*.ind
+*.idx
+
+# Archivos de compilación de glossaries
+*.glg
+*.glo
+*.gls
+*.glsdefs
+
+# Archivos de compilación de arara
+*.log
+
+# Archivos de compilación de latexmk
+*.fls
+*.fdb_latexmk
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.backup
+*~
+
+# Archivos de salida
+*.dvi
+*.ps
+*.pdf
+
+# Directorios temporales
+_build/
