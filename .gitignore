@@ -1,4 +1,11 @@
-# Archivos de compilación de LaTeX
+# Ignorar todos los archivos por defecto
+*
+
+# Permitir archivos .tex y .pdf
+!*.tex
+!*.pdf
+
+# Ignorar archivos de compilación de LaTeX
 *.aux
 *.bbl
 *.blg
@@ -27,45 +34,16 @@
 *.snm
 *.vrb
 
-# Archivos de compilación de BibTeX
-*.bbl
+# Ignorar archivos de compilación de BibTeX
 *.bcf
-*.blg
 *.run.xml
 
-# Archivos de compilación de nomenclatura
-*.nlo
-*.nls
-
-# Archivos de compilación de MakeIndex
-*.ilg
-*.ind
-*.idx
-
-# Archivos de compilación de glossaries
-*.glg
-*.glo
-*.gls
-*.glsdefs
-
-# Archivos de compilación de arara
-*.log
-
-# Archivos de compilación de latexmk
-*.fls
-*.fdb_latexmk
-
-# Archivos temporales
+# Ignorar archivos temporales
 *.tmp
 *.bak
 *.swp
 *.backup
 *~
 
-# Archivos de salida
-*.dvi
-*.ps
-*.pdf
-
-# Directorios temporales
+# Ignorar directorios temporales
 _build/
